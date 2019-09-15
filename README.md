@@ -1,6 +1,7 @@
 # DataHack2019-Armis-Solution
 ![alt text](https://uploads-ssl.webflow.com/5cf2272f73a6239194afd892/5cffce4e5a6c77597e41f0d0_logo.svg)
-Our solution to the Armis challenge at DataHack2019 
+Our solution to the Armis challenge at DataHack2019.
+
 The Challenge original repo: 
 https://github.com/armis-security/DataHack2019
 
@@ -11,14 +12,14 @@ https://github.com/armis-security/DataHack2019
 ## What are the things in this repo
 ### Overview
 There are three parts to the code.
-- feature exploration 
-- extract features
-- submission
+- feature exploration: We used groupby in order to aggregate the data by device ID\network ID. We checked the corraletion between the different variables, so we were able to delete unnecessary columns. 
+- extract features: We defined the function which will be responsible to detected the anomaly
+- submission: Submission of the results and receiving the score
 
 ## Quick reproduce of the results
 As long as the leaderboard is working you can run this code and it will actually submit the result
 
-The printout should be:
+### The printout should be:
 
 ```
 {'member': 'Data Sniffers', 'rank': 8, 'score': 0.8486555135349111}

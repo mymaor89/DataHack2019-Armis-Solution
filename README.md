@@ -5,8 +5,7 @@ The Challenge original repo:
 https://github.com/armis-security/DataHack2019
 
 ## we were at the 8th place
-![alt text](C:/Users/user/Desktop/projects/DataHack 2019/Armis/leader_board.png)
-![alternativetext](Armis/leader_board.png)
+![alternativetext](leader_board.png)
 
 
 ## What are the things in this repo

@@ -11,13 +11,13 @@ https://github.com/armis-security/DataHack2019
 
 ## What are the things in this repo
 ### Overview
-There are three parts to the code.
-- feature exploration: We used groupby in order to aggregate the data by device ID\network ID. We checked the corraletion between the different variables, so we were able to delete unnecessary columns. 
-- extract features: We defined the function which will be responsible to detected the anomaly
-- submission: Submission of the results and receiving the score
+There are three parts to the code:
+- **feature exploration**: We used groupby in order to aggregate the data by device ID\network ID. We checked the corraletion between the different variables, so we were able to delete unnecessary columns. 
+- **extract features**: We defined the function which will be responsible to _detected the anomaly_
+- **submission**: Submission of the results and receiving the score
 
 ## Quick reproduce of the results
-As long as the leaderboard is working you can run this code and it will actually submit the result
+As long as the leaderboard is working you can run this code and it will actually submit the result.
 
 ### The printout should be:
 
